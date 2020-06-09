@@ -1,3 +1,14 @@
+#include<stdio.h>
+#define s 60
+int main(){
+	int h=0,f;
+	do{scanf("%d",&f);
+	while(f>=s){
+		h++;f-s;
+	}
+	printf("%d小时 %d分钟",h,f);
+	}while(f>0);
+} 
 package com.pelople;
 
 public class PerpleTest {
